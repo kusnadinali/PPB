@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Memorist</string>
+    <string name="hint_word">Insert here...</string>
+</resources>

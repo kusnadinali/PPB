@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/layoutView"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:buttonTint="@color/purple"
+            android:backgroundTint="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_task_item">
+
+        <TextView
+            android:id="@+id/titleItemView"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Tugas Praktikum PPB Persona 1"
+            android:textSize="18dp"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/dateItemView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senin, 28 Februari 2022"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/timeItemView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/robotoregular"
+                android:text="23:59"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

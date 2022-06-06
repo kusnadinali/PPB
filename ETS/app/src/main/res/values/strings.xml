@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LigaSepakBola</string>
+    <string name="judul_main_menu">Klasemen Sementara Liga 1</string>
+    <string name="nama_klub">Nama Klub</string>
+    <string name="poin">Poin</string>
+
+</resources>
